@@ -32,7 +32,7 @@ export default function RandomColor() {
     if (typeOfColor === "rgb") handleCreateRandomRgbColor();
     else handleCreateRandomHexColor();           // use effect hoook is used in place where we need to
                                                 //  rerender the page when some values have been changes
-    console.log("useeffect")                                            
+    // console.log("useeffect")                                            
   }, [typeOfColor]);
 
   return (

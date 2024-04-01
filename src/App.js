@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Accordian from './Components/Accordion';
-import RandomColor from './Components/Random-color';
+// import Accordian from './Components/Accordion';
+// import RandomColor from './Components/Random-color';
 import StarRating from './Components/star-rating';
 
 function App() {
