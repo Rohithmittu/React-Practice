@@ -39,7 +39,7 @@ export default function ({ url, limit = 5, page = 1 }) {
     }
   }, [url]);
 
-  console.log(images);
+//   console.log(images);
 
   if (loading) {
     return <div>Loading data! Plese wait</div>;
