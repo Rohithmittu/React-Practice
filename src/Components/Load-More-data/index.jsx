@@ -19,7 +19,10 @@ export default function LoadMoreData() {
       const result = await response.json();
 
       if (result && result.products && result.products.length) {
+        
+        // setProducts(result.products);
         setProducts(() => [...products, ...result.products]);
+        // setProducts((prevProducts) => [...prevProducts, ...result.products]);
         setLoading(false);
       }
 
