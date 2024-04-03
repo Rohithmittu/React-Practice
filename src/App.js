@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import LightDarkMode from './Components/Light-Dark-Mode';
 import QRCodeGenerator from './Components/Qr-code';
 // import ImageSlider from './Components/Image-slider';
 // import LoadMoreData from './Components/Load-More-data';
@@ -19,6 +20,7 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <TreeView  menus={menus}/> */}
       {/* <QRCodeGenerator /> */}
+      <LightDarkMode />
     </div>
   );
 }
