@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import QRCodeGenerator from './Components/Qr-code';
 // import ImageSlider from './Components/Image-slider';
 // import LoadMoreData from './Components/Load-More-data';
 import TreeView from './Components/nested-menu';
@@ -16,7 +17,8 @@ function App() {
       {/* <StarRating /> */}
       {/* <ImageSlider  url={"https://picsum.photos/v2/list"} page={1} limit={10}/> */}
       {/* <LoadMoreData /> */}
-      <TreeView  menus={menus}/>
+      {/* <TreeView  menus={menus}/> */}
+      {/* <QRCodeGenerator /> */}
     </div>
   );
 }
