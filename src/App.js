@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import GithubProfileFinder from './Components/Github-Finder';
 import LightDarkMode from './Components/Light-Dark-Mode';
 import QRCodeGenerator from './Components/Qr-code';
 // import ImageSlider from './Components/Image-slider';
@@ -20,7 +21,8 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <TreeView  menus={menus}/> */}
       {/* <QRCodeGenerator /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      <GithubProfileFinder />
     </div>
   );
 }
