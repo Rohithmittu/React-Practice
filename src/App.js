@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+import FeaturedFlag from './Components/Context-ussage';
+import FeaturedFlagGlobalstate, { FeaturedFlagContext } from './Components/Context-ussage/context';
 import GithubProfileFinder from './Components/Github-Finder';
 import LightDarkMode from './Components/Light-Dark-Mode';
 import QRCodeGenerator from './Components/Qr-code';
@@ -26,7 +28,12 @@ function App() {
       {/* <LightDarkMode /> */}
       {/* <GithubProfileFinder /> */}
       {/* <SearchAutocomplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      <FeaturedFlagGlobalstate>
+        <FeaturedFlag />
+      </FeaturedFlagGlobalstate>
+
     </div>
   );
 }
