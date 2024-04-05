@@ -4,6 +4,7 @@ import GithubProfileFinder from './Components/Github-Finder';
 import LightDarkMode from './Components/Light-Dark-Mode';
 import QRCodeGenerator from './Components/Qr-code';
 import SearchAutocomplete from './Components/Search-autocomplete';
+import TicTacToe from './Components/Tic-Tac-Toe';
 // import ImageSlider from './Components/Image-slider';
 // import LoadMoreData from './Components/Load-More-data';
 import TreeView from './Components/nested-menu';
@@ -24,7 +25,8 @@ function App() {
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
       {/* <GithubProfileFinder /> */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+      <TicTacToe />
     </div>
   );
 }
