@@ -3,6 +3,7 @@ import './App.css';
 import GithubProfileFinder from './Components/Github-Finder';
 import LightDarkMode from './Components/Light-Dark-Mode';
 import QRCodeGenerator from './Components/Qr-code';
+import SearchAutocomplete from './Components/Search-autocomplete';
 // import ImageSlider from './Components/Image-slider';
 // import LoadMoreData from './Components/Load-More-data';
 import TreeView from './Components/nested-menu';
@@ -22,7 +23,8 @@ function App() {
       {/* <TreeView  menus={menus}/> */}
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+      <SearchAutocomplete />
     </div>
   );
 }
